@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/google-api-php-client/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/google-api-php-client/vendor/firebase/php-jwt" />
+      <excludeFolder url="file://$MODULE_DIR$/google-api-php-client/vendor/google/apiclient-services" />
+      <excludeFolder url="file://$MODULE_DIR$/google-api-php-client/vendor/google/auth" />
+      <excludeFolder url="file://$MODULE_DIR$/google-api-php-client/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/google-api-php-client/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/google-api-php-client/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/google-api-php-client/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/google-api-php-client/vendor/phpseclib/phpseclib" />
+      <excludeFolder url="file://$MODULE_DIR$/google-api-php-client/vendor/psr/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/google-api-php-client/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/google-api-php-client/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/google-api-php-client/vendor/ralouphie/getallheaders" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="pad-nopadding" level="application" />
+    <orderEntry type="library" name="mode-ecb" level="application" />
+    <orderEntry type="library" name="jquery" level="application" />
+    <orderEntry type="library" name="core" level="application" />
+    <orderEntry type="library" name="enc-base64" level="application" />
+    <orderEntry type="library" name="tripledes" level="application" />
+    <orderEntry type="library" name="dashboard" level="application" />
+  </component>
+</module>

@@ -1,0 +1,16 @@
+body {
+    padding-bottom: 20px;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+#header_panel
+{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    clear: none;
+}

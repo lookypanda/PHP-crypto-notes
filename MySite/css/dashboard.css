@@ -1,0 +1,134 @@
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+
+body {
+    font-size: .875rem;
+}
+
+
+/*
+ * Sidebar
+ */
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100; /* Behind the navbar */
+    padding: 0px 0 0; /* Height of navbar */
+    margin: 0 0 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+
+}
+
+.sidebar-sticky {
+    position: fixed;
+    top: 0;
+    height: calc(100vh - 28px);
+    padding-top: .5rem;
+    overflow-x: hidden;
+    overflow-y: auto /* Scrollable contents if viewport is shorter than content. */
+}
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+    .sidebar-sticky {
+        position: -webkit-sticky;
+        position: sticky;
+    }
+}
+
+.sidebar .nav-link {
+    font-weight: 400;
+    color: #333;
+}
+
+
+.sidebar .nav-link.active {
+    color: #007bff;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+    color: inherit;
+}
+
+
+.sidebar-heading {
+    font-size: .75rem;
+    text-transform: uppercase;
+}
+
+#side_bar_col {
+    flex: 0 0 13%;
+}
+
+/*
+ * Content
+ */
+
+[role="main"] {
+    padding-top: 133px; /* Space for fixed navbar */
+}
+
+@media (min-width: 768px) {
+    [role="main"] {
+        padding-top: 12px; /* Space for fixed navbar */
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+/*
+ * Navbar
+ */
+
+.navbar-brand {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    font-size: 1rem;
+    flex: 0 0 13%;
+}
+
+.navbar .form-control {
+    padding: .75rem 1rem;
+    border-width: 0;
+    border-radius: 0;
+}
+
+.form-control-dark {
+    color: #fff;
+    background-color: rgba(255, 255, 255, .1);
+    border-color: rgba(255, 255, 255, .1);
+}
+
+.form-control-dark:focus {
+    border-color: transparent;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+
+        flex: 0 0 100%;
+    }
+
+    [role="main"] {
+        padding-top: 10px; /* Space for fixed navbar */
+
+    }
+
+    #side_bar_col {
+        flex: 0 0 100%;
+    }
+
+    .card {
+        width: 100%;
+
+    }
+
+
+}
